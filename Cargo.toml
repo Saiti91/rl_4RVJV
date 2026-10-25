@@ -1,0 +1,15 @@
+[package]
+name = "rl_cours"
+version = "0.1.0"
+edition = "2024"
+
+# Un fichier par notion du cours, rangés dans src/bin/
+# Lancer avec : cargo run --bin notion1_line_world
+
+[[bin]]
+name = "notion1_line_world"
+path = "src/bin/notion1_line_world.rs"
+
+[[bin]]
+name = "notion2_markov"
+path = "src/bin/notion2_markov.rs"
